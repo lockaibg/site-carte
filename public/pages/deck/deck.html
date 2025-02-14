@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Création de Deck</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../common.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../connexion/connexion.html">Connexion</a></li>
+                <li><a href="../deck/deck.html">Deck</a></li>
+                <li><a href="../commencer/commencer.html">Commencer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Création de Deck</h1>
+    
+    <div class="container-deck">
+        <div id="hover-preview" class="fixed-preview">
+            <p>Survolez une carte pour l'aperçu</p>
+        </div>
+        
+        <!-- Partie GAUCHE : Affichage du deck en cours -->
+        <div class="deck-left">
+            <h2>Deck en cours</h2>
+            <ul id="deck-list"></ul>
+            <button type="button" id="save-deck-btn">Enregistrer le deck</button>
+        </div>
+
+        <!-- Partie DROITE : Recherche de cartes -->
+        <div class="deck-right">
+            <h2>Recherche de cartes</h2>
+            <form id="search-form">
+                <label for="deck-selector">Charger un deck existant :</label>
+                <select id="deck-selector">
+                    <option value="">-- Sélectionnez un deck --</option>
+                </select>
+
+                <label for="search-name">Nom :</label>
+                <input type="text" id="search-name" name="search-name" value="" />
+
+                <label for="search-effet">Effet :</label>
+                <input type="text" id="search-effet" name="search-effet" value="" />
+
+                <label for="search-type">Type :</label>
+                <input type="text" id="search-type" name="search-type" value="" />
+
+                <label for="search-energie">Énergie :</label>
+                <input type="number" id="search-energie" name="search-energie" value="" />
+
+                <label for="search-attaque">Attaque :</label>
+                <input type="number" id="search-attaque" name="search-attaque" value="" />
+
+                <label for="search-defense">Défense :</label>
+                <input type="number" id="search-defense" name="search-defense" value="" />
+
+                <label for="search-fond">Fond :</label>
+                <input type="text" id="search-fond" name="search-fond" value="" />
+
+                <label for="deck-name">Nom du deck :</label>
+                <input type="text" id="deck-name" name="deck-name" placeholder="Entrez un nom pour le deck" required />
+                
+
+                <button type="button" id="search-btn">Rechercher</button>
+            </form>
+
+            <table id="search-results">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Type</th>
+                        <th>Énergie</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="deck.js"></script>
+</body>
+</html>

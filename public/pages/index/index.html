@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>Créateur de Cartes</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1/dist/html2canvas.min.js"></script>
+    <script src="../common.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index/index.html">Création de carte</a></li>
+                <li><a href="../base/base.html">Base de carte</a></li>
+                <li><a href="../planche/planche.html">Création de planche</a></li>
+                <li><a href="../deck/deck.html">Deck</a></li>
+                <li><a href="../commencer/commencer.html">Commencer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Créateur de Cartes</h1>
+    <div class="container">
+        <form id="card-form">
+            <label for="card-name">Nom de la carte :</label>
+            <input type="text" id="card-name" name="card-name" placeholder="Ex: Apprenti Mage" required />
+            
+            <label for="card-effect">Effet :</label>
+            <textarea id="card-effect" name="card-effect" rows="4" cols="50" placeholder="Ex: Piochez une carte." required></textarea>
+            
+            <label for="card-type">Type :</label>
+            <select id="card-type" name="card-type" required>
+                <option value="CREATURE">CREATURE</option>
+                <option value="ARME">ARME</option>
+                <option value="FAMILIER">FAMILIER</option>
+                <option value="SORT">SORT</option>
+                <option value="RACE">RACE</option>
+                <option value="CHAMP">CHAMP</option>
+            </select>
+            
+            <label for="card-energy">Énergie :</label>
+            <input type="number" id="card-energy" name="card-energy" min="0" value="0" required />
+            
+            <label for="card-attack">Attaque :</label>
+            <input type="number" id="card-attack" name="card-attack" min="0" value="0" />
+            
+            <label for="card-defense">Défense :</label>
+            <input type="number" id="card-defense" name="card-defense" min="0" value="0" />
+
+            <label for="card-image">Illustration :</label>
+            <input type="file" id="card-image" name="card-image" accept="image/*" />
+            
+            <label for="illustration-scale">Taille de l'illustration :</label>
+            <input type="range" id="illustration-scale" name="illustration-scale" min="50" max="150" value="100">
+
+            <label for="card-background">Fond de carte :</label>
+            <select id="card-background" name="card-background">
+                <option value="fond de carte/pretre.png">prêtre</option>
+                <option value="fond de carte/mage.png">mage</option>
+                <option value="fond de carte/ingenieur.png">Ingénieur</option>
+                <option value="fond de carte/druide.png">druide</option>
+                <option value="fond de carte/paladin.png">paladin</option>
+                <option value="fond de carte/voleur.png">voleur</option>
+                <option value="fond de carte/barde.png">barde</option>
+                <option value="fond de carte/guerrier.png">guerrier</option>
+                <option value="fond de carte/chasseur.png">chasseur</option>
+                <option value="fond de carte/moine.png">moine</option>
+                <option value="fond de carte/occultiste.png">occultiste</option>
+                <option value="fond de carte/commun.png" selected>commun</option>
+            </select>
+            
+            <label for="illustration-position">Position Illustration :</label>
+            <input type="range" id="illustration-position" name="illustration-position" min="0" max="100" value="50">
+
+            <button type="button" class="download-btn" id="save-json-btn">Telecharger carte</button>
+        </form>
+
+        <div class="preview" id="card-preview">
+            <div class="fond-card"><img href="fond de la carte" src ="fond de carte/commun.png"></div>
+            <!-- Le fond est géré en CSS. On place juste des zones de texte. -->
+            <div class="card-illustration"><img href="" src="" id="preview-illustration"></span></div>
+            <div class="card-content">
+                <div class="card-name"><span id="preview-name"></span></div>
+                <div class="card-effect"><span id="preview-effect"></span></div>
+                <div class="card-type">[<span id="preview-type"></span>]</div>
+                <div class="card-energy"><span id="preview-energy"></span></div>
+                <div class="card-attack"><span id="preview-attack"></span></div>
+                <div class="card-defense"><span id="preview-defense"></span></div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="status-message"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

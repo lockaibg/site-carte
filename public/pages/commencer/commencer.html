@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commencer une partie</title>
+    <link rel="stylesheet" href="../styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../connexion/connexion.html">Connexion</a></li>
+                <li><a href="../deck/deck.html">Deck</a></li>
+                <li><a href="../commencer/commencer.html">Commencer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Commencer une partie</h1>
+        <form id="start-form">
+            <div>
+                <label for="deck-selector">Choisissez un deck :</label>
+                <select id="deck-selector">
+                    <option value="">Sélectionner un deck</option>
+                </select>
+                <button id="start-game-btn" disabled>Démarrer</button>
+            </div>            
+        </form>
+        <p id="status-message"></p>
+    </main>
+    <script src="../common.js"></script>
+    <script src="commencer.js"></script>
+</body>
+</html>

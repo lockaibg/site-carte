@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header>
+        <li><a href="../connexion/connexion.html">Connexion</a></li>
+        <li><a href="../deck/deck.html">Deck</a></li>
+        <li><a href="../commencer/commencer.html">Commencer</a></li>
+    </header>
+    <div class="login-container">
+        <h1>Connexion</h1>
+        <form id="login-form">
+            <label for="user-name">Nom :</label>
+            <input type="text" id="user-name" required>
+            
+            <label for="password">Mot de Passe :</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">Se Connecter</button>
+        </form>
+        <div id="register-button"><a href="../creerUnCompte/creerUnCompte.html">Enregistrer un compte</a></div>
+        <div id="login-message"></div>
+    </div>
+
+    <script src="connexion.js"></script>
+</body>
+</html>

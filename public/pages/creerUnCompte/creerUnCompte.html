@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="create-account-container">
+        <h1>Créer un compte</h1>
+        <form id="create-account-form">
+            <label for="username">Nom :</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">Mot de Passe :</label>
+            <input type="password" id="password" required>
+
+            <label for="confirm-password">Confirmer le Mot de Passe :</label>
+            <input type="password" id="confirm-password" required>
+            
+            <button type="submit">Créer un compte</button>
+        </form>
+        <div id="create-account-message"></div>
+    </div>
+
+    <script src="creerUnCompte.js"></script>
+</body>
+</html>

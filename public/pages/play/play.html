@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Jouer</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../common.js"></script>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="play-container">
+        <!-- Conteneur où la carte sera affichée en plus gros au survol -->
+        <div id="hover-preview" class="hover-preview">
+            <!-- La carte agrandie s’affichera ici -->
+        </div>
+        <div class="counter-container">
+            <!-- Première barre (0 à 10) -->
+            <div class="counter">
+                <button class="increment" data-counter="counter1">+</button>
+                <span id="counter1" class="counter-value">0</span>
+                <button class="decrement" data-counter="counter1">-</button>
+                <p>Energie</p>
+            </div>
+        
+            <!-- Deuxième barre (1 à 20) -->
+            <div class="counter">
+                <button class="increment" data-counter="counter2">+</button>
+                <span id="counter2" class="counter-value">1</span>
+                <button class="decrement" data-counter="counter2">-</button>
+                <p>Niveau</p>
+            </div>
+        </div>
+        
+        <div id="terrainMain">
+            <!-- Zone pour afficher les cartes de l'autre joueur -->
+            <div id="opponent-zone" class="zone-opponent">
+                <h3>Cartes de l'adversaire</h3>
+                <ul id="opponent-cards-container"></ul>
+            </div>
+            <div id="zone-modal" class="modal" style="display: none;">
+                <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2 id="zone-modal-title"></h2>
+                <ul id="zone-modal-list"></ul>
+                </div>
+            </div>
+            <!-- Terrain de jeu -->
+            <div class="game-field">
+                <!-- Quatre zones principales -->
+                <div class="zone zone-deck"></div>
+                <div id="deck-menu" style="display: none; position: absolute; background: #f4f4f4; border: 1px solid #ccc; padding: 10px; z-index: 100;">
+                    <button id="draw-card-btn" style="margin-bottom: 10px;">Piocher une carte</button>
+                    <button id="view-deck-btn">Voir toutes les cartes</button>
+                </div>
+                
+                <div class="zone zone-cimetiere"></div>
+                <div class="zone zone-race"></div>
+                <div class="zone zone-champ"></div>
+                <div class="zone zone-terrain"></div>
+            </div>
+            
+        
+            <div class="zone zone-main">
+                <ul id="cards-container"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="carte.js"></script>
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="zones.js"></script>
+    
+    <script type="module" src="play.js"></script>
+</body>
+</html>

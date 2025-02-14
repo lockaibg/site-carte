@@ -1,0 +1,1828 @@
+[
+  {
+    "source_illustration": "illustrationCartes/yj-1737017000117.png",
+    "nom": "Ours noble",
+    "effet": "Vos familiers gagnent +2 PV à la fin de votre tour.",
+    "type": "FAMILIER",
+    "energie": 4,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 3,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/dsq-1737017386811.png",
+    "nom": "Meneur canin",
+    "effet": "<b>Au combat</b> : vos créatures gagnent +1 A / +1 PV.",
+    "type": "FAMILIER",
+    "energie": 4,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 4,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/ezasx-1734641684941.png",
+    "nom": "Camarade de beuverie",
+    "effet": "Lorsque vous jouez cette carte : sélectionnez une créature que vous contrôlez ; elle gagne +2 A / -2 PV.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 4,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/aefeh-1734641752399.png",
+    "nom": "Armée de Montéloy",
+    "effet": "Lorsque vous jouez cette  carte : les deux prochaines créatures que vous jouez pendant ce tour coûte 0 énergies.",
+    "type": "CREATURE",
+    "energie": 7,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 5,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/thvfr-1734642291944.png",
+    "nom": "Danseuse de rue",
+    "effet": "Votre adversaire perd une énergie à son prochain tour.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zfgazg-1734640386590.png",
+    "nom": "Armure de plaque",
+    "effet": "Gagnez +8 PV.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azrfgxc-1734640800871.png",
+    "nom": "Goliath hurleur",
+    "effet": "Lorsque vous jouez cette carte : donnez +2 A à vos autres créatures vivantes.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/opÃ®o-1734640950485.png",
+    "nom": "Chef galvanisant",
+    "effet": "Tant que cette créature est vivante vous gagnez l’effet : “vous pouvez faire 2 attaques par tours”.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 4,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/hyj-1734641170812.png",
+    "nom": "Totem du cerf",
+    "effet": "Les autres créatures sur votre terrain gagnes +1 A.",
+    "type": "FAMILIER",
+    "energie": 3,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/geb-1734642595908.png",
+    "nom": "Mots cinglants",
+    "effet": "Votre adversaire ne peux pas déclarer d’attaque pendant ses deux prochains tours.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azs-1734644024526.png",
+    "nom": "Professeur de l'académie",
+    "effet": "Lorsque vous jetez un  sort : cette créature gagne +1 A/ +2 PV.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/mage.png",
+    "attaque": 3,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/az-1734644150668.png",
+    "nom": "Destructeur par le feu",
+    "effet": "Lorsque vous jouez cette carte : sélectionnez une créature ; infligez lui 8 dégâts.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/mage.png",
+    "attaque": 4,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/bg-1734644219174.png",
+    "nom": "Catalyseur de sorts",
+    "effet": "Tant que cette créature est vivante : ajoutez 1 dégâts aux dégâts de vos sorts.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/mage.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/edgsbh-1734645104138.png",
+    "nom": "Maîtrise de sorts",
+    "effet": "Les prochains sorts que vous lancez ce tour coûte 2 énergies de moins.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/poh-1734645438146.png",
+    "nom": "Partage d'enchantement",
+    "effet": "Pendant le reste de ce tour : quand vous lancez un sort qui cible une créature sur le terrain vous pouvez cibler une autre créature qui sera aussi la  cible du sort.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/oÃ po-1734781777169.png",
+    "nom": "Renvoie des impis",
+    "effet": "Pendant le prochain tour de votre adversaire : les créature qu’il contrôle actuellement ne peuvent pas attaquer.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azecef-1734781911535.png",
+    "nom": "Faveure divine",
+    "effet": "Piochez 3 cartes",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azedaz-1734782127025.png",
+    "nom": "Champion antique",
+    "effet": "Vous gagnez cet effet de manière pérmanante : Au début de chaque tours ; piochez une carte supplémentaire et gagnez 5 PV.",
+    "type": "SORT",
+    "energie": 7,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azsd-1734783043668.png",
+    "nom": "Soigneur divin",
+    "effet": "Lorsque  vous jouez cette carte vous récupérez 5 PV. Pendant votre phase de jeu : vous pouvez faire revenir cette carte depuis le terrain a votre main. (vous ne pouvez pas utiliser cet effet le tour ou elle est joué).",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 1,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/1f6bbbcd-04f9-49dd-ba36-7eb96d8eca21-1734797520604.png",
+    "nom": "Succube",
+    "effet": "Lorsque vous jouez cette carte : sélectionnez une créature contrôlée par votre adversaire : prenez en le contrôle tant que cette créature est vivante.",
+    "type": "FAMILIER",
+    "energie": 4,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/e9f80181-eb25-4492-923b-db1b7ff193a4-1734797866777.png",
+    "nom": "Pacte de la lame",
+    "effet": "Pendant ce tour : votre adversaire subit aussi tout les dégâts que vous subissez.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/dac25aff-0181-42c4-8446-fae537a5293d-1734798221536.png",
+    "nom": "Offrande de sang",
+    "effet": "La prochaine carte que vous jouez coûte des PV au lieu de l'énergie.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/65ae8e15-93c4-4247-97a1-b00b0ca02cd6-1734798588237.png",
+    "nom": "Quasit",
+    "effet": "Lorsque cette créature attaque : vous subissez des dégâts égaux à son A.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 3,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/6194bcfd-92bf-4fff-abdc-b4f14528817c-1734806099950.png",
+    "nom": "Appel du patron",
+    "effet": "Ajoutez un familier depuis votre deck à votre main, il coûte 2 énergies de moins pendant ce tour.",
+    "type": "SORT",
+    "energie": 0,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/EgdERG-1734638076883.png",
+    "nom": "Artiste de rue",
+    "effet": "<b>Au combat</b> : gagnez 2 énergies.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/commun.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/tjnhqt-arh-1734637999360.png",
+    "nom": "Marchand fantastique",
+    "effet": "<b>Au combat</b> : piochez un carte.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/commun.png",
+    "attaque": 1,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/GEZfezf-1734638847566.png",
+    "nom": "Herboriste sauvage",
+    "effet": "Une fois par tours : vous pouvez activer un de ces effets.\r\n-Piochez 1 cartes.\r\n-Gagnez 2 énergies.\r\n-Infligez 3 dégâts a un personnage.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/KIO-1734641452972.png",
+    "nom": "Ordre de recrutement",
+    "effet": "Regardez les deux cartes du dessus de votre deck si il y a une créature : vous pouvez l’ajouter à votre main.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zegsdg-1734641910066.png",
+    "nom": "Escouade d'exploration",
+    "effet": "<b>Au combat</b> : <b>gagnez</b> 2 jetons avec 2/3.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/ezfgz-1734641297635.png",
+    "nom": "Totem du cheval",
+    "effet": "À la fin de votre tour : vos créatures gagnent +1 PV.",
+    "type": "FAMILIER",
+    "energie": 6,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 4,
+    "defense": 6
+  },
+  {
+    "source_illustration": "illustrationCartes/TEHTJ-1734637906665.png",
+    "nom": "Fée",
+    "effet": "Lorsque cette créature  est <b>tuée</b> : piochez 2 cartes.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/commun.png",
+    "attaque": 0,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/rgzrgsgs-1734638649395.png",
+    "nom": "Ecuyer déterminé",
+    "effet": "Lorsque cette créature vas  subir plus de 2 dégâts : réduisez ces dégâts à 2.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/commun.png",
+    "attaque": 1,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/okij-1734646523386.png",
+    "nom": "Rayon de givre",
+    "effet": "<b>Sélectionnez</b> un personnage :  il subit 5 dégâts et ne peut pas attaquer pendant le prochain tour.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/njk-1734646019559.png",
+    "nom": "Brume mortelle",
+    "effet": "<b>Sélectionnez</b> 3 créatures contrôlées par votre adversaire elles subissent 3 dégâts.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/aszdf-1734643978840.png",
+    "nom": "Etudiant serein",
+    "effet": "<b>Au combat</b> : ajoutez deux sorts qui coûtent 3 énergies ou moins de votre deck à votre mains.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/mage.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/ff-1734811607178.png",
+    "nom": "Meurtrier de guerre",
+    "effet": "<b>Au combat</b> : infligez des dégâts à votre adversaire égaux au nombre de cartes que vous avez joué ce tour.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 3,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/rhjgea-1734644633404.png",
+    "nom": "Restauration arcanique",
+    "effet": "La prochaine fois que  vous lancez un sort pendant ce tour : gagnez 2 énergies.",
+    "type": "SORT",
+    "energie": 0,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zratg-1734639703408.png",
+    "nom": "Préparateur de sorts",
+    "effet": "Tant que cette créature est  vivante : Les sorts de votre main coûtent une énergie de moins.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/commun.png",
+    "attaque": 1,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/azef-1734646550828.png",
+    "nom": "Multishoot",
+    "effet": "<b>Sélectionnez</b> un personnage : il subit 3 dégâts. Après avoir utiliser ce sort : ajoutez le à votre main depuis le  cimetière.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/aegf-1734646583829.png",
+    "nom": "Hâte",
+    "effet": "Piochez 1 carte, gagnez 2 énergies.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/ynjjt-1734810645682.png",
+    "nom": "Gang de pirates",
+    "effet": "<b>Au combat</b> : vous gagnez +2 énergies au prochain tour.",
+    "type": "CREATURE",
+    "energie": 5,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 4,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/afraeef-1734810099511.png",
+    "nom": "Voleur de sorts",
+    "effet": "<b>Compétence</b> : “une fois par tour, quand votre adversaire lance un sort : ajoutez le a votre mains au lieu du cimetière”.",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azf-1736608487931.png",
+    "nom": "Voleur d'or",
+    "effet": "<b>Au combat</b> : Votre adversaire choisi une carte de sa main pour l'ajouter à la votre.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/aqzfazf-1734811410734.png",
+    "nom": "Larve infectueuse",
+    "effet": "Lorsque cette créature  est <b>tué</b> : <b>sélectionnez</b> une créature adverse ; prenez le contrôle de la créature.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 0,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/vgfzegf-1734810474661.png",
+    "nom": "Kidnapper",
+    "effet": "<b>Au combat</b> : sélectionnez une créature adverse ; prenez son contrôle. Quand cette créature est rendu <b>inconsciente</b> ou <b>tué</b> : rendez le contrôle de la créature à votre  adversaire.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/zaerfazf-1734810377725.png",
+    "nom": "Voleur de rations",
+    "effet": "<b>Au combat</b> : la prochaine fois que votre adversaire pioche une carte : ajoutez la à votre mains à la place de la sienne.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/pomuily-1734643298395.png",
+    "nom": "Eveil",
+    "effet": "Gagnez 2 niveaux.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/b45b5ade-6d63-4127-aa4f-6e828917854b-1736620801170.png",
+    "nom": "Egouts",
+    "effet": "Les cartes qui ne n'appartiennent pas au joueur qui la joue coûtent 1 énergie de moins.",
+    "type": "CHAMP",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/02b2903a-d1ce-4c8a-8c38-d341de8ce393-1736620917030.png",
+    "nom": "Ecole d'arcane",
+    "effet": "Les sorts qui infligent des dégâts inflige 1 dégât supplémentaire.",
+    "type": "CHAMP",
+    "energie": 2,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/b2f18f9b-3d2b-4682-9f96-4de96989f7e6-1736621119383.png",
+    "nom": "Taverne animée",
+    "effet": "<b>Au combat</b> : gagnez +3 énergie.\r\nLe joueur du tour peut activer cet effet : gagnez +1 énergie.",
+    "type": "CHAMP",
+    "energie": 2,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-11 19-1736621316244.png",
+    "nom": "Plaine verte",
+    "effet": "Les familiers sur le terrain gagnent +2 A/+1 PV.",
+    "type": "CHAMP",
+    "energie": 2,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/aku-1734637767060.png",
+    "nom": "Alchimiste",
+    "effet": "<b>Au combat</b> : allez chercher un sort dans votre deck et ajoutez le à votre main.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/rg-1734638405994.png",
+    "nom": "Apprentis avide",
+    "effet": "<b>Réaction</b> : Une fois par tour, lorsque votre adversaire lance un sort : Ajoutez le sort depuis le cimetière de votre adversaire a votre main, il coûte 1 énergie en moins.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/t,hyuk-1734637811926.png",
+    "nom": "Armuriste",
+    "effet": "Vos autres créatures vivante ont +2 PV.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/YJKU8-1734638039646.png",
+    "nom": "Chef de guerre",
+    "effet": "<b>Réaction</b> : Lorsqu'une attaque qui cible une autre créature vas la tuer ; Changez la cible de l'attaque par cette carte.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/zfzefzefe-1734639376444.png",
+    "nom": "Cible marquée",
+    "effet": "<b>Galvanisé</b> : Cette créature gagne +2 A.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/qtyjr'jjtr-j-1734637945066.png",
+    "nom": "Conseil des bois",
+    "effet": "<b>Réaction</b> : Lorsque votre adversaire commence sa phase de combat ; Sélectionnez une créature : elle ne peut pas être attaqué pendant \r\nce tour.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/treGERG-1734638776204.png",
+    "nom": "Dresseur d'aigles",
+    "effet": "<b>Réaction</b> : Lorsque cette créature déclare une attaque ; elle gagne +2 A.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 1,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/yjh,gb-1734638325187.png",
+    "nom": "Gnoll agressif",
+    "effet": "<b>Galvanisé</b> : vous pouvez prendre contrôle de la créature tué et ses PV  deviennent 1.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 5,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/tghqerf-1734638708337.png",
+    "nom": "Grand protécteur",
+    "effet": "<b>Rugissement</b>",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/egzega-1734639458791.png",
+    "nom": "Héro du peuple",
+    "effet": "<b>Galvanisé</b> : piochez une carte.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/therh-1734639287151.png",
+    "nom": "Informateur des ménestrels",
+    "effet": "<b>Au combat</b> : regardez les deux prochaines cartes du deck de votre adversaire.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/eth-1734637864129.png",
+    "nom": "Mimique",
+    "effet": "<b>Au combat</b> : sélectionnez une autre créature sur votre terrain ; cette effet deviens l’effet de la créature.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/ezgzegzeg-1734639421297.png",
+    "nom": "Noblesse assumée",
+    "effet": "A chaque fois que vous dépensez 1 ou plus énergie pendant votre tour : piochez une carte.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/orc-1734634777274.png",
+    "nom": "Orc",
+    "effet": "<b>Compétence</b> : Vous  gagnez 4 AB et 6 PV.\r\n<b>Compétence</b> : Une fois par tours, lorsqu’une de vos créature vas tomber inconsciente : elle revient \r\nà 1 PV.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 4,
+    "defense": 6
+  },
+  {
+    "source_illustration": "illustrationCartes/azeeze-1734639510090.png",
+    "nom": "Tavernier chanceux",
+    "effet": "<b>Au combat</b> : Sélectionnez une créature vivante ; Renvoyez la dans la main de son contrôleur.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/HJGHJ-1734639570513.png",
+    "nom": "Esclavagiste drow",
+    "effet": "<b>Au combat</b> : tuez 2 créatures que vous contrôlez ; cette créature gagne l’A et les PV des créatures tuées.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/RRZG-1734638127209.png",
+    "nom": "Expériences dangereuses",
+    "effet": "<b>Au combat</b> : infligez 4 dégâts a une créature adverse.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/commun.png",
+    "attaque": 4,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/yujftrg-1734638468330.png",
+    "nom": "Extradama",
+    "effet": "Une fois par tours, Sélectionnez un personnage : il subit 6 dégâts.",
+    "type": "CREATURE",
+    "energie": 6,
+    "fond": "fond de carte/commun.png",
+    "attaque": 6,
+    "defense": 6
+  },
+  {
+    "source_illustration": "illustrationCartes/tbgfrhqergh-1734638568267.png",
+    "nom": "Fateur l'ancien",
+    "effet": "Lorsque cette créature subits des dégâts : elle gagne +2 PV.",
+    "type": "CREATURE",
+    "energie": 7,
+    "fond": "fond de carte/commun.png",
+    "attaque": 7,
+    "defense": 6
+  },
+  {
+    "source_illustration": "illustrationCartes/wxf-1734811504837.png",
+    "nom": "Adepte de Bhaal",
+    "effet": "<b>Galvanisé</b> : vous ajoutez à votre main la carte du dessus du deck de votre adversaire.",
+    "type": "CREATURE",
+    "energie": 6,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 6,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/scf-1734810976134.png",
+    "nom": "Adversaire sans scrupule",
+    "effet": "<b>Au combat</b> : la prochaine créature que vous jouez coûte 2 énergies de moins.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/hgfg-1734809953974.png",
+    "nom": "Attaque sournoise",
+    "effet": "<b>Réaction</b> : Au début de la phase de combat : Si vous contrôlez plus de créature que votre adversaire ; vos créature gagne +2 A pendant ce tour.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 0,
+    "defense": 0
+  },
+  {
+    "source_illustration": "illustrationCartes/cfdz-1734811538736.png",
+    "nom": "Concocteur de poison",
+    "effet": "Une fois par tours : sélectionnez une autre créature sur le terrain ; elle gagne <b>Lame empoisonnée</b>.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 2,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/dqsfqef-1734810770272.png",
+    "nom": "Executeur de contrâts",
+    "effet": "Lorsque vous jouez cette carte, si vous avez déjà joué une autre carte pendant ce tour : cette créature gagne +3 A.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/okh-1734809912764.png",
+    "nom": "Foulée brumeuse",
+    "effet": "Sélectionnez une créature sur votre terrain : remontez la dans votre mains, elle coûte deux énergies de moins.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/rgez-1734811472387.png",
+    "nom": "Main invisible",
+    "effet": "<b>Enterrement</b> : vous gagnez +2 énergies au prochain tour.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/hhh-1734811691810.png",
+    "nom": "Marchand ésotérique",
+    "effet": "<b>Au combat</b> : cette créature gagne +1 A/ +1 PV pour chaque autre créature que vous  contrôlez.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/tgvc-1734642422580.png",
+    "nom": "Théâtre",
+    "effet": "Pendant le reste de ce tour,  à chaque fois que vous gagnez de l’énergie : gagnez 1 énergie supplémentaire.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/21b747e1-ce6a-4eb1-9d5b-200504c21856-1736843011685.png",
+    "nom": "Loup fantomatique",
+    "effet": "<b>Réaction</b> : Lorsque votre adversaire vas changer de phase : vous pouvez activer l'effet d'un Champ sur le terrain.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/barde.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/53a139c2-782d-4d0c-857f-fe89c976319a-1736843750149.png",
+    "nom": "Hartya et Herty",
+    "effet": "<b>Au combat</b> : Sélectionnez un personnage sur le terrain ; il subit autant dégâts qu'il vous reste d'énergie.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/barde.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/edgeg-1734640225174.png",
+    "nom": "épée longue",
+    "effet": "<b>Compétence</b> : Vous gagnez +2 A.",
+    "type": "ARME",
+    "energie": 2,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/rha-1734641982475.png",
+    "nom": "Exposant d'armes",
+    "effet": "A la fin de votre tour, si vous avez une Arme : vous gagnez +4 PV.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 2,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/qzfss-1734640303726.png",
+    "nom": "Hache de guerre",
+    "effet": "<b>Compétence</b> : Vous gagnez +2 A. \r\n<b>Au combat</b> : Vous gagnez +4 PV.",
+    "type": "ARME",
+    "energie": 3,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/THHZ-1734641480720.png",
+    "nom": "Lien avec une arme",
+    "effet": "Pendant ce tour : doublez  les caractéristique gagnez par vos Arme.",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/ip-1734640972606.png",
+    "nom": "Novice du combat",
+    "effet": "<b>Au combat</b> : vous gagnez +4 PV.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 1,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/rgnb-1734642032157.png",
+    "nom": "Ogothe trop-prévoyant",
+    "effet": "Tant que cette créature est vivante : si vous utilisez une Arme cette créature gagne +2 A / +2 PV.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 3,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/esfazf-1734640439921.png",
+    "nom": "Rage implacapble",
+    "effet": "Pendant le reste de ce tour : vos personnages peuvent effectuer 2 attaques.",
+    "type": "SORT",
+    "energie": 5,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azd-1736850879571.png",
+    "nom": "Imposition des mains",
+    "effet": "Gagnez +12 PV.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azsd-1736851132908.png",
+    "nom": "Epee d'âme au kless",
+    "effet": "Pendant ce tour, lorsque vous attaquez une créature si elle à l'issue du combat elle a 2 PV ou moins : elle tombe inconsciente.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/jrtj-1736851502960.png",
+    "nom": "Lockayne",
+    "effet": "<b>Au combat</b> : gagne toutes les <b>Compétences</b> des armes que vous contrôlez.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 0,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/kuhf-1736851385248.png",
+    "nom": "Protecteur majestueux",
+    "effet": "<b>Au combat</b> : Sélectionnez une créature sur le terrain : elle gagne +2 PV.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 1,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/fhvfh-1736851751908.png",
+    "nom": "Ivellios le doré",
+    "effet": "<b>Au combat</b> : Sélectionnez 2 créature \"Poing divin\" dans votre cimetière : ajoutez les à votre main puis vous gagnez leurs caractéristiques.",
+    "type": "CREATURE",
+    "energie": 6,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 3,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/erffe-1736851823742.png",
+    "nom": "Invocateur sacré",
+    "effet": "<b>Au combat</b> : Les deux prochaines créatures que vous jouez pendant ce tour coûte -2 énergies.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/jnt-1736852037439.png",
+    "nom": "Sauvetage miraculeux",
+    "effet": "<b>Réaction</b>, depuis la main : Lorsque votre adversaire ou une créature attaque une créature sur le terrain, payez 2 énergies ; amenez cette créature sur le terrain, \r\nannulez l'attaque",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/fgg-1736851037757.png",
+    "nom": "Acte de convocation",
+    "effet": "Ajoutez une créature \"Poing divin\" depuis votre deck ou cimetière à votre main.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/dccdac8e-d332-43b6-82bc-097580cc164a-1736857060814.png",
+    "nom": "Ordre de charge du poing divin",
+    "effet": "Pendant le reste de ce tour, Chaque fois qu'une créature \"poing divin\" déclare une attaque : sélectionnez une créature sur le terrain elle gagne +1 A jusqu'à la fin \r\ndu tour.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/9ff7c06e-9207-4e84-aa84-c413a1dbddeb-1736857845484.png",
+    "nom": "Alagam",
+    "effet": "<b>Au combat</b> : sélectionnez un personnage : il subit autant de dégâts que vous avez de sorts dans votre cimetière.",
+    "type": "CREATURE",
+    "energie": 8,
+    "fond": "fond de carte/mage.png",
+    "attaque": 4,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-14 14-1736862805119.png",
+    "nom": "Invocation de l'haut de la",
+    "effet": "Sélectionnez 3 Familiers dans votre cimetière ; ajoutez les à votre main, ils coûtent -4 énergies.",
+    "type": "SORT",
+    "energie": 5,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/humain-1734633301759.png",
+    "nom": "Humain",
+    "effet": "<b>Compétence</b> : gagnez 4 AB, gagnez 4 PV.\r\nVous commencez la partie au niveau 3.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 4,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/tgyr-1734646063995.png",
+    "nom": "Coffre secret de léomund",
+    "effet": "<b>Dévoilez</b> les trois cartes du dessus de votre deck, ajoutez tout les sorts à votre main, ils coûtent 0 énergies pendant ce tour.",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/azfae-1734646569166.png",
+    "nom": "Contresort",
+    "effet": "<b>Réaction</b> : Lorsque votre adversaire lance un  sort ; annulez le.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/yg-1734645617486.png",
+    "nom": "Façonner un sort",
+    "effet": "Ajoutez un sort depuis votre deck à votre main, vous ne pouvez pas l'utiliser ce tour.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/mage.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/a-1734644285352.png",
+    "nom": "Grimoire imposant",
+    "effet": "<b>Au combat</b> : <b>Dévoilez</b> la carte du dessus de votre deck : si c'est un sort ajoutez la à votre main sinon envoyez la au cimetière.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/mage.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/f, jk-1734644399324.png",
+    "nom": "Jeteur de sorts",
+    "effet": "<b>Au combat</b> : Vous et votre adversaire <b>dévoilez</b> la carte du dessus de vos decks respectifs ; si c’est un sort le joueur l’ajoute à  sa main.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/mage.png",
+    "attaque": 4,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/ergaze-1736957434763.png",
+    "nom": "Rats infectueux",
+    "effet": "<b>Dernière volonté</b> : Les deux joueurs gagnent 3 jetons \"Rat\" avec 1/1.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/nhjer-1736957486216.png",
+    "nom": "Couple canin",
+    "effet": "<b>Au combat</b> : <b>Gagnez</b> un jeton \"loup\" avec 3/3.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/iukjg-1736957635683.png",
+    "nom": "Lien animal",
+    "effet": "Pendant ce tour : Votre familier gagne une A égal à votre A.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/igvh-1736957663678.png",
+    "nom": "Attaque rapide",
+    "effet": "Pendant ce tour : Vos personnages peuvent faire 2 attaques",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zefd-1736957703841.png",
+    "nom": "Appel de la meute",
+    "effet": "Ajoutez 2 créatures depuis votre deck à votre main.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/rfqs-1737016488682.png",
+    "nom": "Nappe de brouillard",
+    "effet": "Pendant les deux prochains tours : Aucun joueur ne peut déclarer d'attaque.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zsdqs-1737016555363.png",
+    "nom": "Immobilisation d'épine",
+    "effet": "Sélectionnez une créature sur le terrain : elle ne peut pas attaquer jusqu'a votre prochain tour.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zsegf-1737016583859.png",
+    "nom": "Peau d'écorce",
+    "effet": "Votre familier gagne +5 PV.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/yj-1737016843447.png",
+    "nom": "Loup ténébreux",
+    "effet": "Gagne +2 A pour chaque autre créature que vous contrôlez.",
+    "type": "FAMILIER",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/dsq-1737017266484.png",
+    "nom": "Aigle majestueux",
+    "effet": "Vos familiers ont <b>Vol</b>.",
+    "type": "FAMILIER",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 4,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/gfhn-1737017560453.png",
+    "nom": "Maître des dragons",
+    "effet": "<b>Au combat</b> : Ajoutez un Familier depuis votre deck à votre main.\r\n<b>Réaction</b> : Lorsqu'une créature déclare une attaque, vous pouvez lui une\r\ndeuxième attaque ce \r\ntour.",
+    "type": "CREATURE",
+    "energie": 6,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 6,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/hjgf-1737017650559.png",
+    "nom": "Acolye draconique",
+    "effet": "Cette créature peut attaquer 2 fois si vous contrôlez un familier.",
+    "type": "FAMILIER",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 4,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/dtrhf-1737017721803.png",
+    "nom": "Chef de meute",
+    "effet": "Gagne +1 A pour chaque autre créature que vous contrôlez.",
+    "type": "FAMILIER",
+    "energie": 8,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 6,
+    "defense": 10
+  },
+  {
+    "source_illustration": "illustrationCartes/azds-1737017911296.png",
+    "nom": "Slaad rouge",
+    "effet": "<b>Au combat</b> : Sélectionnez une créature sur le terrain, cette créature gagne des caractéristiques égales à la créature sélectionnée.",
+    "type": "CREATURE",
+    "energie": 5,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 0,
+    "defense": 0
+  },
+  {
+    "source_illustration": "illustrationCartes/tyj-1737018005603.png",
+    "nom": "Marchand de Légumes",
+    "effet": "<b>Réaction</b> : Lorsqu'un sort est activé pendant le tour adverse ; piochez une carte.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 1,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/sqf-1737018079457.png",
+    "nom": "Piège à loup",
+    "effet": "<b>Réaction</b> : Lorsque votre adversaire déclare une attaque : annulez l'attaque, le personnage attaquant subit 3 dégâts.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/sfz-1737018288590.png",
+    "nom": "Marque du chasseur",
+    "effet": "Sélectionnez une créature : elle subit 2 dégâts.\r\nDans le cimetière, <b>Réaction</b> : Lorsque la créature ciblé Attaque : payez 1 énergie, elle subit 3 dégâts.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/wfvwze-1737018382062.png",
+    "nom": "Vigilance primitive",
+    "effet": "<b>Réaction</b> : Lorsqu'une créature est joué : Sélectionnez une créature, renvoyez la dans la main de son contrôleur.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/qfsq-1737018496608.png",
+    "nom": "Rage animale",
+    "effet": "<b>Réaction</b> : Lorsqu'une créature attaque une autre créature ; sélectionnez une des créature engagé dans le combat, elle peut attaquer 2 fois et elle ne peut pas subir de dégâts ce tour.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/1d78f6f8-7e53-4fde-bf7f-efed0c68cc5e-1737022404774.png",
+    "nom": "Ecurie de Verpaline",
+    "effet": "Les joueurs peuvent contrôlez 2 Familiers à la fois.",
+    "type": "CHAMP",
+    "energie": 4,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/6006ec7a-8724-4c59-9c76-f0c425d446ab-1734799375480.png",
+    "nom": "Cambion sournois",
+    "effet": "<b>Au combat</b> : infligez vous un nombre de dégâts de votre choix, sélectionnez 2 créatures sur le terrain de votre adversaire ; elle subissent le nombre de dégâts que vous vous êtes infligé.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/2a960311-c718-405e-bae4-61bdfd2370ae-1734797990571.png",
+    "nom": "Le fiélon",
+    "effet": "Vous subissez 2 dégâts à la fin de votre tour.\r\n<b>Compétence</b> : Une fois par tour ; vous pouvez révéler la carte que vous piochez remettez la dans le deck puis ajoutez une carte depuis votre deck à \r\nvotre main.",
+    "type": "FAMILIER",
+    "energie": 5,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 6,
+    "defense": 8
+  },
+  {
+    "source_illustration": "illustrationCartes/e44f4eee-d426-485c-b01f-55bf54c35d75-1736863095590.png",
+    "nom": "Buveuse de sang",
+    "effet": "<b>Compétence</b> : Lorsque vous tuez une créature, si vous contrôlez un familier : Vous gagnez autant de PV que la créature avait puis gagnez +1 A.",
+    "type": "ARME",
+    "energie": 4,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/af54b8f5-24d8-4dfd-9c35-b950403f6c03-1734805530501.png",
+    "nom": "Cambion déterminé",
+    "effet": "<b>Au combat</b> : Si vous contrôlez un familier ; <b>Compétence</b> : Gagnez +2 A.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/be236f4a-9298-49f5-9b15-ea0d1c19e7fd-1734797781703.png",
+    "nom": "Archifée",
+    "effet": "Cette créature coûte des PV plutôt que de l'énergie. Tant que cette créature est vivante vous avez +2 A. Une fois par tour : gagnez +2 PV.",
+    "type": "FAMILIER",
+    "energie": 8,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 8,
+    "defense": 8
+  },
+  {
+    "source_illustration": "illustrationCartes/d165146e-436a-44a9-b1a6-9a0efa3f589f-1734806596128.png",
+    "nom": "Vigueure fiélonne",
+    "effet": "<b>Compétence</b> : A la fin de votre tour, Si vous possédez un familier : Gagnez +2 PV.",
+    "type": "ARME",
+    "energie": 3,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/29620c27-ff57-42c6-9204-3fdb312f64b0-1734806378817.png",
+    "nom": "Chatiment occulte",
+    "effet": "<b>Réaction</b> : Lorsque vous attaquez : subissez 1 dégâts, gagnez +3 A pendant ce tour.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/9a2fdf7e-251c-423f-8fff-7b36411a2273-1734799171077.png",
+    "nom": "Chien infernal",
+    "effet": "<b>Réaction</b> : Lorsque vous subissez des dégâts : Cette créature gagne +1 A/+1 PV",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 3,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/b2106c52-6161-4af9-b150-11a662a8c939-1734805756361.png",
+    "nom": "Decharge occulte",
+    "effet": "Sélectionnez 3 personnages : ils subissent 4 dégâts.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/a21d4c1f-aac5-4027-9a72-6f27d7357a7c-1734798991209.png",
+    "nom": "Destrier noir",
+    "effet": "<b>Au combat</b> : sélectionnez un personnage ; il subit 3 dégâts. \r\nPayez 4 PV : ajoutez cette carte depuis votre terrain à votre main.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 3,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/ed7f16ff-a099-4812-9238-af353eefe181-1734805745467.png",
+    "nom": "Drain de vie",
+    "effet": "Payez 2 PV : piochez 2 cartes.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/d3e55d44-8c49-47c7-acc8-b115d8d2bcfb-1734799449511.png",
+    "nom": "Neu-noeil",
+    "effet": "<b>Au combat</b> : l'attaque de cette créature devient égale aux dégâts que vous avez subit pendant ce tour.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 0,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/9238ef82-7a2a-4c82-9056-722882ba5c66-1734798282704.png",
+    "nom": "Sacrifice revigorant",
+    "effet": "Pendant ce tour le reste de ce tour vous avez <b>Réaction</b> : Lorsque vous subissez des dégâts : gagnez +2 PV.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/nain-1734634693988.png",
+    "nom": "Nain",
+    "effet": "<b>Compétence</b> : Vous  gagnez 5 AB, vous gagnez 10 PV.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 5,
+    "defense": 10
+  },
+  {
+    "source_illustration": "illustrationCartes/500d3cc9-031b-4903-9deb-4af7a0d8abe2-1736842724843.png",
+    "nom": "Erchove",
+    "effet": "<b>Réaction</b> : Lorsqu'un effet d'une de vos cartes est activé pendant le tour de l'adversaire ; l'adversaire perd 1 énergie.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/barde.png",
+    "attaque": 2,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/989cd3d2-e3aa-40fc-8972-6d9596a89195-1737129896262.png",
+    "nom": "Envoutement",
+    "effet": "Piochez 2 cartes",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-17 17-1737130797430.png",
+    "nom": "Metal night",
+    "effet": "<b>Réaction</b> : Lorsqu'un sort est lancé ; gagnez +1 énergie.\r\nCe sort peut être utilisé depuis le cimetière en le remettant en dessous du deck.",
+    "type": "SORT",
+    "energie": 0,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/e0fb3f9b-64d5-4175-aeea-61c606fd0ca0-1737131073266.png",
+    "nom": "Lyre enchanté",
+    "effet": "Une fois par tour : <b>Réaction</b> : Lorsque vous gagnez une ou plusieurs énergies ; piochez une carte",
+    "type": "ARME",
+    "energie": 4,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-17 17-1737131344021.png",
+    "nom": "Retour de baton",
+    "effet": "<b>Réaction</b> : Lorsque votre adversaire vas gagner une ou plusieurs énergies : il perd 2 énergies et subit 5 dégâts, piochez une \r\ncarte.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-17 17-1737131604090.png",
+    "nom": "Saveur envoutante",
+    "effet": "<b>Réaction</b> : Lorsqu'une créature est joué : prenez en le contrôle.",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-17 17-1737131880345.png",
+    "nom": "Gobelin",
+    "effet": "<b>Compétence</b> : Vous gagnez 4 AB\r\n<b>Compétence</b> : Vous gagnez l'effet : les premiers dégâts que vous subissez à chaque tour sont réduis à 0.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 4,
+    "defense": 0
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-17 17-1737131926899.png",
+    "nom": "Satyre",
+    "effet": "<b>Compétence</b> : vous gagnez 4 AB et 2 PV.\r\n<b>Compétence</b> : 1 fois par tours, après avoir lancer un sort : vous gagnez 1 énergie.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 4,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-17 17-1737131961557.png",
+    "nom": "Né-dragon",
+    "effet": "<b>Compétence</b> : Vous  gagnez 3 AB\r\n<b>Compétence</b> : Pour le reste de la partie : Pendant votre phase de jeu vous pouvez dépenser 3 mana, sélectionnez 3 créatures adverse elles subissent \r\n3 dégâts.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 0
+  },
+  {
+    "source_illustration": "illustrationCartes/sedgfe-1737016712271.png",
+    "nom": "Invocation d'animaux",
+    "effet": "Si vous ne contrôlez pas de Familier : Amenez un Familier depuis votre deck sur votre terrain.",
+    "type": "SORT",
+    "energie": 6,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zeada-1734640349594.png",
+    "nom": "Arc long",
+    "effet": "<b>Compétence</b> : Vous gagnez +4 A pendant le reste de la partie.",
+    "type": "ARME",
+    "energie": 5,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/zfsf-1734640331545.png",
+    "nom": "Lance",
+    "effet": "<b>Compétence</b> : Vous pouvez toujours attaquer votre adversaire même si il contrôle des créatures.",
+    "type": "ARME",
+    "energie": 6,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/az-1736850853196.png",
+    "nom": "Marteau divin",
+    "effet": "<b>Compétence</b> : Gagnez +2 A.\r\n<b>Compétence</b> : <b>Réaction</b> : Lorsque vous allez rendre inconsciente une créature ; tuez la.",
+    "type": "ARME",
+    "energie": 4,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/455ccf10-53de-463f-8282-0e466f5a455f-1736852233304.png",
+    "nom": "Armure dorée",
+    "effet": "<b>Compétence</b> : La première fois que votre adversaire vas vous infliger des dégâts à chaque tour : réduisez ces dégâts à 0.",
+    "type": "ARME",
+    "energie": 3,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/d4f98a59-113b-4bb8-b4df-5956979e469e-1736852386239.png",
+    "nom": "Casque sacré",
+    "effet": "<b>Compétence</b> : Si vous contrôlez une autre Arme : gagnez +2 A.\r\n<b>Compétence</b> : Lorsque vous attaquez une créature : sélectionnez une autre créature adverse elle subit autant de dégâts que vous avez d'A.",
+    "type": "ARME",
+    "energie": 5,
+    "fond": "fond de carte/paladin.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/egffg-1736851624594.png",
+    "nom": "Gardien d'argent",
+    "effet": "<b>Au combat</b> : <b>Dévoilez</b> les 3 cartes du dessus de votre deck ; si il y a une carte Arme ajoutez la à votre main.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/ssx-1737017128426.png",
+    "nom": "Dresseur de chiens",
+    "effet": "<b>Au combat</b> : vos familiers gagnent +2 A / +2 PV.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/chasseur.png",
+    "attaque": 4,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/zfgf-1736852081919.png",
+    "nom": "Professeur de la lumière",
+    "effet": "<b>Au combat</b> : gagnez +2 A pendant ce tour",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/b0d2a963-5320-4617-8190-83eed1560ba9-1734797219771.png",
+    "nom": "Diablotins",
+    "effet": "<b>Au combat</b> : vous <b>gagnez</b> 3 jetons diablotin 1/1.",
+    "type": "FAMILIER",
+    "energie": 2,
+    "fond": "fond de carte/occultiste.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/e362bfd4-a90b-4c0f-b749-f559c4409f39-1737143700800.png",
+    "nom": "Marché d'Artasine",
+    "effet": "Le joueur du tour peut activer cet effet : Envoyez une carte de votre main au cimetière ; piochez 2 cartes.",
+    "type": "CHAMP",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/sefsfg-1737016402241.png",
+    "nom": "Piège à flêches",
+    "effet": "<b>Réaction</b> : Quand votre adversaire joue une créature ; annulez la.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/chasseur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/revgefrf-1734638510605.png",
+    "nom": "Hey-meurt ! Dingueur",
+    "effet": "<b>Au combat</b> : <b>gagnez</b> 2 jetons 1/1 création avec l’effet “à la fin de votre tour : infligez 2 dégâts a un monstre de votre choix”. \r\nQuand cette créature subits des dégâts : invoquez un nouveau \r\njeton \"création\".",
+    "type": "CREATURE",
+    "energie": 7,
+    "fond": "fond de carte/commun.png",
+    "attaque": 2,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/fe041f2a-cac8-41a0-b228-f8cd42edcabf-1737536063796.png",
+    "nom": "Totem de l'aigle",
+    "effet": "<b>Réaction</b> : après avoir joué une créature : Vos autres créatures vivantes gagnent +1 A / +1 PV et <b>Vol</b>.",
+    "type": "FAMILIER",
+    "energie": 3,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 09-1737536313551.png",
+    "nom": "Déterrer la hache de guerre",
+    "effet": "Ajoutez deux créatures qui coûte 2 énergies ou moins depuis votre deck à votre main. Cette carte 0 énergies si vous contrôlez une créature \"Totem\".",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/guerrier.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737538764030.png",
+    "nom": "Ingénieure très prométeuse",
+    "effet": "<b>Gagnez</b> un jeton \"Tourelle\" 0/1.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 1,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737538931377.png",
+    "nom": "Tirez !!!",
+    "effet": "Sélectionnez un personnage : il sûbit 2 dégâts pour chaque jetons \"Tourelle\" que vous contrôlez.",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737539180751.png",
+    "nom": "Etudiant du combat",
+    "effet": "<b>Au combat</b> : Si vous contrôlez une arme Ingénieur ou un jeton \"tourelle\" : sélectionnez un personnage ; il subit 3 dégâts.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737539306977.png",
+    "nom": "Académie d'Apeville",
+    "effet": "Les jetons sur le terrain gagnent +3 A.",
+    "type": "CHAMP",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737539539696.png",
+    "nom": "Clef-Amolaite",
+    "effet": "<b>Compétence</b> : Après avoir attaqué, <b>gagnez</b> un jeton \"Tourelle\" 0/1.",
+    "type": "ARME",
+    "energie": 4,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737539637804.png",
+    "nom": "Jeffrey Amolaite",
+    "effet": "<b>Au combat</b> : ajoutez une Arme Ingénieur depuis votre deck à votre main.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 3,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 10-1737539981484.png",
+    "nom": "Patrouille d'exploration",
+    "effet": "<b>Au combat</b> : Si vous ne contrôlez pas de jetons sur votre terrain : gagnez 2 jetons \"Tourelle\" 0/1. A la fin de votre tour : Pour chaque jeton \"Tourelle\" que vous contrôlez : sélectionnez un personnage : il subit \r\n2 dégâts.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737540368666.png",
+    "nom": "Terrain miné",
+    "effet": "<b>Tuez</b> Toutes vos créatures : Pour chaque créatures tués infligez 2 dégâts à un personnage adverse aléatoire.",
+    "type": "SORT",
+    "energie": 4,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737540799405.png",
+    "nom": "Satyre d'armes",
+    "effet": "<b>Au combat</b> Sélectionnez une arme, choisissez parmi une de ces <b>Compétences</b> :\r\n-Gagnez +2 A.\r\n-Gagnez Vol.\r\nL'arme est détruite après \r\navoir attaqué avec.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737540993884.png",
+    "nom": "Retapeur d'armure",
+    "effet": "<b>Compétence</b> : <b>Galvanisé</b> : Sélectionnez une créature sur le terrain elle gagne +1 A / +2 PV.",
+    "type": "ARME",
+    "energie": 2,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737541115759.png",
+    "nom": "Marteautomatique",
+    "effet": "<b>Compétence</b> : Gagnez +3 A. Vous subissez 2 dégâts après avoir attaqué",
+    "type": "ARME",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737541447958.png",
+    "nom": "Raconte-nous une histoire",
+    "effet": "Vos jetons \"Tourelle\" Gagnent l'effet : \"une fois par tours : Infligez 2 dégâts a un personnage adverse Aléatoire\". Pendant ce tour",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737541622611.png",
+    "nom": "Escouade de recharge",
+    "effet": "Si vous avez un jeton sur le terrain : Cette créature a +2 PV et <b>Rugissement</b>.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 3,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737541835262.png",
+    "nom": "Zoupix-V1.0",
+    "effet": "Après avoir attaqué : Tuez cette créature et si vous le faites gagnez 1 jeton \"tourelle\". 0/1.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737542039372.png",
+    "nom": "Distributeur d'huile",
+    "effet": "Lorsque vous <b>gagnez</b> 1 jeton : il gagne +1 A / +1 PV.",
+    "type": "CREATURE",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 0,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737542428673.png",
+    "nom": "Recruteur rural",
+    "effet": "<b>Dernière volonté</b> : Ajoutez deux cartes qui mentionnent un jeton \"tourelle\" dans leurs effet depuis votre deck à votre main.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 2,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737542637115.png",
+    "nom": "Ecarcile le grand",
+    "effet": "<b>Rugissement</b>.\r\n<b>Au combat</b> : <b>Gagnez</b> 2 jetons \"tourelle\" 0/1. \r\nA la fin de votre tour : <b>Gagnez</b> 1 jeton \"tourelle\" 0/1.",
+    "type": "CREATURE",
+    "energie": 5,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 1,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737542922771.png",
+    "nom": "Protecteur d'Apeville",
+    "effet": "<b>Rugissement</b>.\r\n<b>Au combat</b> : <b>Révélez</b> les 2 cartes du dessus de votre deck ajoutez en une à votre main, vous ne pouvez pas la jouer pendant ce tour.",
+    "type": "CREATURE",
+    "energie": 6,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 6,
+    "defense": 5
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737543109312.png",
+    "nom": "ROBOT TUEUR",
+    "effet": "<b>Au combat</b> : SI vous contrôlez une arme ; piochez une carte.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/ingenieur.png",
+    "attaque": 1,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737543252304.png",
+    "nom": "Partager le savoir",
+    "effet": "Sélectionnez une créature sur le terrain : elle gagne toutes les compétences des armes Ingénieur que vous contrôlez.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 11-1737543559934.png",
+    "nom": "Amélioration : viseur",
+    "effet": "Activable uniquement si vous contrôlez une arme. <b>Compétence</b> : <b>Galvanisé</b>, sélectionnez un personnage : il subit 4 dégâts.",
+    "type": "ARME",
+    "energie": 3,
+    "fond": "fond de carte/ingenieur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 14-1737551570605.png",
+    "nom": "Réunion de roublards",
+    "effet": "Dévoilez les 3 cartes du dessous de votre deck : ajoutez une créature qui coûte 3 énergies ou moins",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 14-1737551839509.png",
+    "nom": "Préparer le casse",
+    "effet": "Si vous avez joué une créature pendant ce tour : piochez 1 carte, ajoutez une carte depuis votre cimetière à votre main",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 14-1737552199924.png",
+    "nom": "Recruteur de la brigandine",
+    "effet": "Pendant le reste de ce tour : Les créatures que vous jouez gagnent +1 A / +1 PV.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/voleur.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 14-1737552511588.png",
+    "nom": "Okorbo le Gras",
+    "effet": "Cette créature coûte -1 énergie pour chaque carte que vous avez joué pendant ce tour.",
+    "type": "SORT",
+    "energie": 12,
+    "fond": "fond de carte/voleur.png",
+    "attaque": 8,
+    "defense": 8
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 14-1737553528580.png",
+    "nom": "Enchanteur naturel",
+    "effet": "Lorsque votre adversaire lance un sort : annulez le puis il retourne dans sa main.",
+    "type": "SORT",
+    "energie": 1,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 14-1737554358050.png",
+    "nom": "Batteur de la bande",
+    "effet": "Une fois par tour, <b>Réaction</b> : Lorsque votre adversaire déclare une attaque ; Le personnage attaquant est <b>Assourdi</b> pendant 2 tours.",
+    "type": "SORT",
+    "energie": 3,
+    "fond": "fond de carte/barde.png",
+    "attaque": 2,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 15-1737554755369.png",
+    "nom": "Guitariste de la bande",
+    "effet": "<b>Au combat</b> : si vous contrôlez une créature \"bande\" votre adversaire perd -1 énergie au prochain tour.",
+    "type": "CREATURE",
+    "energie": 4,
+    "fond": "fond de carte/barde.png",
+    "attaque": 4,
+    "defense": 2
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 15-1737554916366.png",
+    "nom": "Mice bande",
+    "effet": "Si vous contrôlez une créature \"bande\" <b>Réaction</b> : Lorsque votre adversaire joue une créature : elle est <b>Assourdi</b> pendant 1 tour.",
+    "type": "CREATURE",
+    "energie": 2,
+    "fond": "fond de carte/barde.png",
+    "attaque": 2,
+    "defense": 1
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 15-1737555036967.png",
+    "nom": "Echarcheur de la bande",
+    "effet": "<b>Rugissement</b>.\r\nCette créature gagne +2 A pour chaque autre créature bande sur le terrain.",
+    "type": "CREATURE",
+    "energie": 5,
+    "fond": "fond de carte/barde.png",
+    "attaque": 3,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/DALLÂ·E 2025-01-22 15-1737555279459.png",
+    "nom": "Changement de matérièle",
+    "effet": "<b>Réaction</b> : après n'importe quelle action ; Sélectionnez une créature \"bande\" : ajoutez la à votre main, <b>Ammenez</b> une créature \"bande\" différence de votre deck vers votre terrain.",
+    "type": "SORT",
+    "energie": 2,
+    "fond": "fond de carte/barde.png"
+  },
+  {
+    "source_illustration": "illustrationCartes/openart-image_LZFSScA7_1734002020640_raw-1734633029068.png",
+    "nom": "Elfe",
+    "effet": "<b>Compétence</b> : vous gagnez 3 AB et 3 PV.\r\n<b>Compétence</b> : Une fois par tour, pendant le tour de l’adversaire, vous pouvez annuler l’effet d’un sort en payant son coût en énergie au  début de votre prochain  tour.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 3,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/gnomevrai-1734634725876.png",
+    "nom": "Gnome",
+    "effet": "<b>Compétence</b> : Vous gagnez  4 AB, vous gagnez 3 PV\r\n<b>Compétence</b> : Pour le reste de la partie une fois par tour, lorsque vous jouez une créature : vous pouvez lui donner +2 A et +1 PV.",
+    "type": "RACE",
+    "energie": null,
+    "fond": "fond de carte/commun.png",
+    "attaque": 4,
+    "defense": 3
+  },
+  {
+    "source_illustration": "illustrationCartes/Natural_Look_Less_Perfect_Logo-1738518648813.png",
+    "nom": "default",
+    "effet": "Cette carte représente une carte inexistante",
+    "type": "CREATURE",
+    "energie": 0,
+    "fond": "fond de carte/commun.png",
+    "attaque": 0,
+    "defense": 0
+  },
+  {
+    "source_illustration": "illustrationCartes/tghv-1734783075707.png",
+    "nom": "Enchanteur d'armes",
+    "effet": "<b>Au combat</b> : sélectionnez un personnage : il gagne +1 A pour toute la partie.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/paladin.png",
+    "attaque": 1,
+    "defense": 4
+  },
+  {
+    "source_illustration": "illustrationCartes/greg-1734640727800.png",
+    "nom": "Forgeur émérite",
+    "effet": "<b>Au combat</b> : Ajoutez une Arme depuis votre deck à votre main.",
+    "type": "CREATURE",
+    "energie": 1,
+    "fond": "fond de carte/guerrier.png",
+    "attaque": 1,
+    "defense": 1
+  }
+]
