@@ -1,5 +1,7 @@
 # site-carte
 Site uniquement en localhost => invite de commande : node server.js pour le lancer puis http://localhost:3000.
+(installer node.js et node ws)
+
 
 Le code n'est pas commenté parceque je suis tout seul sur le projet.
 
