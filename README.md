@@ -4,7 +4,7 @@
 
 ### installation des packets
 ```bash
-npm install node.js
+npm install nodejs
 npm install websocket
 ```
 
