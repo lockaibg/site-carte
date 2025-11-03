@@ -1,9 +1,20 @@
 # site-carte
 
-## informations
+## installations et informations
 
-Site uniquement en localhost => invite de commande : node server.js pour le lancer puis http://localhost:3000.
-(installer node.js et node ws)
+### installation des packets
+```bash
+npm install node.js
+npm install websocket
+```
+
+### lancement du serveur
+```bash
+node server.js
+```
+
+> http://localhost:3000
+
 
 Le code n'est pas commenté parceque je suis tout seul sur le projet.
 
